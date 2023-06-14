@@ -1,0 +1,51 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 210px;
+  gap: 10px;
+  position: absolute;
+  left: 390px;
+  right: 10px;
+  bottom: 100px;
+  width: 429px;
+  height: 52px;
+  
+  background: #8A4893;
+  border-radius: 75px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  }
+  
+  .footer-button {
+    width: 115px;
+height: 24px;
+
+/* Body/Body Large - Roboto 16/24 . +0.5 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.5px;
+
+/* Neutral White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  
